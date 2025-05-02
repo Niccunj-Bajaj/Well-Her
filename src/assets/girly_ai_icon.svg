@@ -1,0 +1,43 @@
+<svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+  <!-- Hair -->
+  <path d="M24 4C14 4 10 14 10 22V32C10 32 12 40 24 40C36 40 38 32 38 32V22C38 14 34 4 24 4Z" fill="#8E44AD" />
+  
+  <!-- Face -->
+  <ellipse cx="24" cy="24" rx="12" ry="14" fill="#FFDBAC" />
+  
+  <!-- Eyes -->
+  <ellipse cx="19" cy="22" rx="2" ry="2.5" fill="#5D4037" />
+  <ellipse cx="29" cy="22" rx="2" ry="2.5" fill="#5D4037" />
+  
+  <!-- Eyelashes -->
+  <path d="M17 20L15 18" stroke="#5D4037" stroke-width="0.7" />
+  <path d="M19 19L19 17" stroke="#5D4037" stroke-width="0.7" />
+  <path d="M21 20L23 18" stroke="#5D4037" stroke-width="0.7" />
+  
+  <path d="M27 20L25 18" stroke="#5D4037" stroke-width="0.7" />
+  <path d="M29 19L29 17" stroke="#5D4037" stroke-width="0.7" />
+  <path d="M31 20L33 18" stroke="#5D4037" stroke-width="0.7" />
+  
+  <!-- Smile -->
+  <path d="M20 28C22 30 26 30 28 28" stroke="#5D4037" stroke-width="1.5" fill="none" />
+  
+  <!-- Blush -->
+  <ellipse cx="17" cy="26" rx="2" ry="1.5" fill="#E57373" opacity="0.5" />
+  <ellipse cx="31" cy="26" rx="2" ry="1.5" fill="#E57373" opacity="0.5" />
+  
+  <!-- Earrings -->
+  <circle cx="11" cy="24" r="1.5" fill="#E91E63" />
+  <circle cx="37" cy="24" r="1.5" fill="#E91E63" />
+  
+  <!-- Tech elements -->
+  <path d="M14 14L10 10" stroke="#64B5F6" stroke-width="1" />
+  <path d="M34 14L38 10" stroke="#64B5F6" stroke-width="1" />
+  <circle cx="10" cy="10" r="1.5" fill="#64B5F6" />
+  <circle cx="38" cy="10" r="1.5" fill="#64B5F6" />
+  
+  <!-- Digital crown -->
+  <path d="M19 8L21 6L24 5L27 6L29 8" stroke="#64B5F6" stroke-width="1.5" fill="none" />
+  <circle cx="19" cy="8" r="1" fill="#64B5F6" />
+  <circle cx="24" cy="5" r="1" fill="#64B5F6" />
+  <circle cx="29" cy="8" r="1" fill="#64B5F6" />
+</svg>

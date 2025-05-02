@@ -3,6 +3,7 @@ import React, { useContext } from "react";
 import "./Main.css";
 import { assets } from "../../assets/assets";
 import { Context } from "../../context/context";
+import ReactMarkdown from "react-markdown";
 
 const Main = () => {
   const {
@@ -13,6 +14,7 @@ const Main = () => {
     resultData,
     setInput,
     input,
+    loadingProgress,
   } = useContext(Context);
 
   return (
@@ -56,24 +58,25 @@ const Main = () => {
               <p className="white">{recentPrompt}</p>
             </div>
             <div className="resultData">
-              <img src={assets.gemini_icon} alt="" />
+              <img src={assets.girly_ai_icon} alt="" />
               {loading ? (
                 <div className="loader">
-                  <hr />
-                  <hr />
-                  <hr />
-                  <hr />
-                  <hr />
-                  <hr />
-                  <hr />
-                  <hr />
-                  <hr />
+                  <div className="progress-container">
+                    <div 
+                      className="progress-bar" 
+                      style={{ width: `${loadingProgress}%` }}
+                    ></div>
+                  </div>
+                  <div className="typing-indicator">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
                 </div>
               ) : (
-                <p
-                  dangerouslySetInnerHTML={{ __html: resultData }}
-                  className="white"
-                ></p>
+                <div className="markdown-content white">
+                  <ReactMarkdown>{resultData}</ReactMarkdown>
+                </div>
               )}
             </div>
           </div>
