@@ -28,7 +28,7 @@ const Main = () => {
           <>
             <div className="greet">
               <p>
-                <span>Hello, User.</span>
+                <span>Hello, Girl.</span>
               </p>
               <p>How can I help you today?</p>
             </div>
